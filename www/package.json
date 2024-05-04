@@ -8,8 +8,7 @@
   },
   "scripts": {
     "build": "webpack --config webpack.config.js",
-    "start": "webpack-dev-server",
-    "dev": "NODE_OPTIONS=--openssl-legacy-provider npm run start"
+    "start": "webpack-dev-server"
   },
   "repository": {
     "type": "git",
@@ -27,12 +26,13 @@
     "url": "https://github.com/rustwasm/create-wasm-app/issues"
   },
   "homepage": "https://github.com/rustwasm/create-wasm-app#readme",
+  "dependencies": {
+    "lib-simulation-wasm": "file:../libs/simulation-wasm/pkg"
+  },
   "devDependencies": {
-    "lib-simulation-wasm": "file:../libs/simulation-wasm/pkg",
-    "hello-wasm-pack": "^0.1.0",
-    "webpack": "^4.29.3",
-    "webpack-cli": "^3.1.0",
-    "webpack-dev-server": "^3.1.5",
+    "webpack": "^5.76.3",
+    "webpack-cli": "^5.0.1",
+    "webpack-dev-server": "^4.13.1",
     "copy-webpack-plugin": "^5.0.0"
   }
 }
