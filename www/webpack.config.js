@@ -15,14 +15,4 @@ module.exports = {
   experiments: {
     syncWebAssembly: true,
   },
-  resolve: {
-    extensions: [".js", ".json", ".wasm"],
-    alias: {
-      // Assuming 'libs' is a sibling to 'www' directory and both are at the root of your project
-      "lib-simulation-wasm": path.resolve(
-        __dirname,
-        "../../libs/simulation-wasm/pkg",
-      ),
-    },
-  },
 };
