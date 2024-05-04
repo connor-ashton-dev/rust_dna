@@ -1,0 +1,1 @@
+Copied<FlatMap<FlatMap<std::slice::Iter<'_, Layer>, std::slice::Iter<'_, Neuron>, {closure@libs/neural-network/src/lib.rs:29:23: 29:30}>, std::iter::Chain<std::iter::Once<&f32>, std::slice::Iter<'_, f32>>, {closure@libs/neural-network/src/lib.rs:30:23: 30:31}>>
