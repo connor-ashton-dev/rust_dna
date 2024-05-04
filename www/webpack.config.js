@@ -16,12 +16,12 @@ module.exports = {
     syncWebAssembly: true,
   },
   resolve: {
-    extensions: [".js", ".json", ".wasm"], // Ensure Webpack resolves these extensions.
+    extensions: [".js", ".json", ".wasm"],
     alias: {
-      // Create an alias for 'lib-simulation-wasm' to point to the correct directory
+      // Assuming 'libs' is a sibling to 'www' directory and both are at the root of your project
       "lib-simulation-wasm": path.resolve(
         __dirname,
-        "../libs/simulation-wasm/pkg",
+        "../../libs/simulation-wasm/pkg",
       ),
     },
   },
