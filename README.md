@@ -1,13 +1,13 @@
 # RUST DNA
-A wasm application showcasing a feed-forward neural network (FFNN) neural network and genetic algorithm written from scratch in RUST
+A wasm application showcasing a feed-forward neural network (FFNN) and genetic algorithm written from scratch in RUST🦀
 
 
 ## Instructions to use
 
 ``` 
 # Clone the repository
-$ git clone https://github.com/Patryk27/shorelark
-$ cd shorelark
+$ git clone https://github.com/connor-ashton-dev/rust_dna.git
+$ cd rust_dna
 
 # Build Rust code
 $ cd libs/simulation-wasm
